@@ -1,5 +1,5 @@
 function findMaxNumber(arr) {
-    let max = 0;
+    let max = arr[0];
 
     arr.forEach((num) => {
         if (num > max) max = num;
